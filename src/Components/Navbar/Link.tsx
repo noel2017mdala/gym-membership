@@ -18,7 +18,7 @@ const Link = ({
     const lowerPage = page.toLocaleLowerCase().replace(/ /g, "") as SelectedPage;
   return (
     <AnchorLink 
-    className={`${selectedPage === lowerPage ? "text-primary-500" : ""} transition duration-500 hover:text-primary-300`}
+    className={`${selectedPage === lowerPage ? "text-primary-500" : ""} transition duration-500 hover:text-primary-500`}
     href={`#${lowerPage}`}
     onClick={():void =>{
         console.log("hello World");
