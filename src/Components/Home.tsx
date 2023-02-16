@@ -1,5 +1,4 @@
 import { SelectedPage } from '@/shared/types'
-import React from 'react'
 import ActionButton from './Navbar/ActionButton'
 import TextImage from '../images/HomePageText.png'
 import ImageGraphics from '../images/HomePageGraphic.png'
